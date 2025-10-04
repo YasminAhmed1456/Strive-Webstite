@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header fixed-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">Strive<span>.</span></a>
+
+        <!-- button menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Deep Dropdown <i class="bi bi-chevron-right"></i></a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Deep 1</a></li>
+                    <li><a class="dropdown-item" href="#">Deep 2</a></li>
+                    <li><a class="dropdown-item" href="#">Deep 3</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- زر CTA في الديسكتوب -->
+            <a href="#about" class="cta-btn d-none d-lg-block ms-lg-3">Get Started</a>
+        </div>
+        </div>
+    </nav>
+</header>
+<!-- Carousel -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/imgi_1_slider-16.webp" class="d-block w-100" alt="..." style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-block text-center px-3">
+            <h3 class="h-lg-3 h-sm-5 h-md-3 h-lg-1 mb-2 mb-md-3 ">Building Trust, Driving Growth</h3>
+            <p class="line d-none d-md-block"></p>
+            <p class="small fs-sm-6 fs-md-5 fs-lg-4 px-1 px-md-4 mb-2 mb-md-3">Present your business with confidence using a clean, flexible, and fully responsive template that helps you connect with clients, attract opportunities, and strengthen your brand identity.</p>
+            <button class="btn btn-carousel rounded-pill px-3 py-1 px-md-4 py-md-2 small">Get Started</button>
+        </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+        <img src="./images/imgi_2_slider-13.webp" class="d-block w-100" alt="..." style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-block text-center px-3">
+            <h3 class="h-lg-3 h-sm-5 h-md-3 h-lg-1 mb-2 mb-md-3 fw-bold">Building Trust, Driving Growth</h3>
+            <p class="line d-none d-md-block"></p>
+            <p class="small fs-sm-6 fs-md-5 fs-lg-4 px-1 px-md-4 mb-2 mb-md-3">Present your business with confidence using a clean, flexible, and fully responsive template that helps you connect with clients, attract opportunities, and strengthen your brand identity.</p>
+            <button class="btn btn-carousel rounded-pill px-3 py-1 px-md-4 py-md-2 small">Get Started</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="./images/imgi_3_slider-3.webp" class="d-block w-100" alt="..." style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-block text-center px-3">
+            <h3 class="h-lg-3 h-sm-5 h-md-3 h-lg-1 mb-2 mb-md-3 fw-bold">Building Trust, Driving Growth</h3>
+            <p class="line d-none d-md-block"></p>
+            <p class="small fs-sm-6 fs-md-5 fs-lg-4 px-1 px-md-4 mb-2 mb-md-3">Present your business with confidence using a clean, flexible, and fully responsive template that helps you connect with clients, attract opportunities, and strengthen your brand identity.</p>
+            <button class="btn btn-carousel rounded-pill px-3 py-1 px-md-4 py-md-2 small">Get Started</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="./images/imgi_4_slider-14.webp" class="d-block w-100" alt="..." style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-block text-center px-3">
+            <h3 class="h-lg-3 h-sm-5 h-md-3 h-lg-1 mb-2 mb-md-3 fw-bold">Building Trust, Driving Growth</h3>
+            <p class="line d-none d-md-block"></p>
+            <p class="small fs-sm-6 fs-md-5 fs-lg-4 px-1 px-md-4 mb-2 mb-md-3">Present your business with confidence using a clean, flexible, and fully responsive template that helps you connect with clients, attract opportunities, and strengthen your brand identity.</p>
+            <button class="btn btn-carousel rounded-pill px-3 py-1 px-md-4 py-md-2 small">Get Started</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="./images/imgi_5_slider-5.webp" class="d-block w-100" alt="..." style="height: 100vh; object-fit: cover;">
+        <div class="carousel-caption d-block text-center px-3">
+            <h3 class="h-lg-3 h-sm-5 h-md-3 h-lg-1 mb-2 mb-md-3 fw-bold">Building Trust, Driving Growth</h3>
+            <p class="line d-none d-md-block"></p>
+            <p class="small fs-sm-6 fs-md-5 fs-lg-4 px-1 px-md-4 mb-2 mb-md-3">Present your business with confidence using a clean, flexible, and fully responsive template that helps you connect with clients, attract opportunities, and strengthen your brand identity.</p>
+            <button class="btn btn-carousel rounded-pill px-3 py-1 px-md-4 py-md-2 small">Get Started</button>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- /* section About */ -->
+<section class="about" id="about" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Header -->
+                <div class="mb-4">
+                    <div class="d-flex">
+                        <h2 class="mb-2 text-uppercase">About</h2>
+                        <div class="bg-warning mt-4 ms-4" style="width: 150px; height: 4px;"></div>
+                    </div>
+                    
+                    <p class="mt-3" style="color: rgb(146, 140, 140);">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+            <!-- Left side - Image -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="Avatar-about position-relative ">
+                    <img src="./images/about-portrait-2.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 650px;">
+                    
+                    <!-- Top right badge -->
+                    <div class="Avatar-card-right position-absolute text-center text-uppercase rounded-2" style="background-color: rgb(234, 124, 0); width: 120px; height: 70px; color: white; top: 20px; right: -15px; padding: 10px;">
+                        <h4 class="mb-0 fw-bold">345+</h4>
+                        <small>Projects</small>
+                    </div>
+                    
+                    <!-- Bottom left experience card -->
+                    <div class="Avatar-card-left position-absolute text-center rounded-2 shadow" style="background-color: white; width: 160px; height: 120px; bottom: -20px; left: 30px; padding: 15px;">
+                        <h2 class="fw-bold mb-1" style="color: orangered; font-size: 2.5rem;">12</h2>
+                        <p class="mb-0 small fw-semibold" style="color: black; line-height: 1.2;">Years of<br>Experience</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right side - Content -->
+            <div class="col-lg-6 ps-lg-5">
+                
+                
+                <!-- Main title and description -->
+                <div class="mb-4 ">
+                    <h3 class="fw-bold mb-3" style="font-size: 2rem; line-height: 1.3;">Vestibulum Sagittis Lacinia Augue</h3>
+                    <p style="color: rgb(146, 140, 140); line-height: 1.6;">Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
+                </div>
+                
+                <!-- Two column features -->
+                <div class="row mb-4">
+                    <div class="col-md-6 mb-3">
+                        <div class="row-left d-flex align-items-start">
+                            <img src="./images/icon_rocket.jpg" alt="" class="me-3" style="width: 50px; height: 50px;">
+                            <div>
+                                <h5 class="mb-2">Pellentesque Dapibus</h5>
+                                <p class="small mb-0" style="color: rgb(146, 140, 140);">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="row-right d-flex align-items-start">
+                            <img src="./images/icon_earth.jpg" alt="" class="me-3" style="width: 50px; height: 50px;">
+                            <div>
+                                <h5 class="mb-2">Suspendisse Pulvinar</h5>
+                                <p class="small mb-0" style="color: rgb(146, 140, 140);">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Check list -->
+                <div class=" list-check mb-4">
+                    <div class="list-check-top d-flex align-items-center mb-2">
+                        <i class="bi bi-check2-circle text-warning fs-5 me-3"></i>
+                        <p class="mb-0" style="color: rgb(146, 140, 140);">Phasellus viverra nulla ut metus varius laoreet quisque rutrum aenean.</p>
+                    </div>
+                    <div class="list-check-bottom d-flex align-items-center mb-3">
+                        <i class="bi bi-check2-circle text-warning fs-5 me-3"></i>
+                        <p class="mb-0" style="color: rgb(146, 140, 140);">Etiam ultricies nisi vel augue curabitur ullamcorper ultricies nisi nam.</p>
+                    </div>
+                </div>
+                
+                <!-- Learn More Button -->
+                <button class="btn text-uppercase fw-semibold" style="background: rgb(234, 124, 0); color: white; border: none; padding: 12px 30px; border-radius: 5px;">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /* section Services */ -->
+<section class="services" id="services" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Header -->
+                <div class="mb-4">
+                    <div class="d-flex">
+                        <h2 class="mb-2 text-uppercase">Services</h2>
+                        <div class="bg-warning mt-4 ms-4" style="width: 150px; height: 4px;"></div>
+                    </div>
+                    
+                    <p class="mt-3" style="color: rgb(146, 140, 140);">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+            
+            
+            <!-- left side - Content -->
+            <div class="col-lg-6 ps-lg-5">
+                
+                <!-- Main title and description -->
+                <div class="mb-4 ">
+                    <h4  class="text-uppercase" style="color: rgb(234, 124, 0); margin-bottom: 30px;font-size: 30px;">Professional Services</h4>
+                    <h3 class="fw-bold mb-3" style="font-size: 3rem; line-height: 1.3;">Elevating Business Performance Through Strategic Solutions</h3>
+                    <p style="color: rgb(146, 140, 140); line-height: 1.6;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius risus sed pellentesque auctor. Phasellus gravida magna at tortor cursus, sit amet suscipit tortor malesuada.</p>
+                </div>
+                
+                
+                <!-- Learn More Button -->
+                <button class="btn btn-services text-uppercase fw-semibold" style="background: rgb(234, 124, 0); color: white; border: none; padding: 12px 30px; border-radius: 5px;">Request a Consultation</button>
+            </div>
+
+            <!-- Right side - Image -->
+            <div class="Avatar-services col-lg-6 mb-5 mb-lg-0">
+                <div class=" position-relative">
+                    <img src="./images/services-9.webp" alt="" class="img-fluid w-100" style="object-fit: cover;height: 500px; width: 400px; margin-top:50px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Cards Section -->
+    <div class="container my-5 position-relative">
+    <!-- Wrapper للكروت -->
+    <div class="d-flex flex-nowrap overflow-auto slider-container">
+        
+        <!-- Card 1 -->
+        <div class="card shadow-sm text-center h-100 p-4 me-3 service-card" style="min-width: 280px;">
+        <div class="icon-circle mx-auto mb-3">
+            <i class="fas fa-chart-bar fs-3"></i>
+        </div>
+        <h5 class="fw-bold">Financial Strategy</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-footer-custom">
+            <span class="number">01</span>
+            <span class="line"></span>
+        </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card shadow-sm text-center h-100 p-4 me-3 service-card" style="min-width: 280px;">
+        <div class="icon-circle mx-auto mb-3">
+            <i class="fas fa-chart-line fs-3"></i>
+        </div>
+        <h5 class="fw-bold">Market Expansion</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-footer-custom">
+            <span class="number">02</span>
+            <span class="line"></span>
+        </div>
+        </div>
+
+        <div class="card shadow-sm text-center h-100 p-4 me-3 service-card" style="min-width: 280px;">
+        <div class="icon-circle mx-auto mb-3">
+            <i class="fas fa-shield-alt fs-3"></i>
+        </div>
+        <h5 class="fw-bold">Risk Management</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-footer-custom">
+            <span class="number">03</span>
+            <span class="line"></span>
+        </div>
+        </div>
+
+        <div class="card shadow-sm text-center h-100 p-4 me-3 service-card" style="min-width: 280px;">
+        <div class="icon-circle mx-auto mb-3">
+            <i class="fas fa-users fs-3"></i>
+        </div>
+        <h5 class="fw-bold">Team Building</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-footer-custom">
+            <span class="number">04</span>
+            <span class="line"></span>
+        </div>
+        </div>
+
+        <div class="card shadow-sm text-center h-100 p-4 me-3 service-card" style="min-width: 280px;">
+        <div class="icon-circle mx-auto mb-3">
+            <i class="fas fa-lightbulb fs-3"></i>
+        </div>
+        <h5 class="fw-bold">Innovation</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="card-footer-custom">
+            <span class="number">05</span>
+            <span class="line"></span>
+        </div>
+        </div>
+    </div>
+
+    <!-- الأسهم -->
+    <div class="position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+        <button class="btn btn-warning btn-sm rounded-circle" onclick="scrollSlider(-1)" style="width: 40px; height: 40px;">
+        <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="btn btn-warning btn-sm rounded-circle" onclick="scrollSlider(1)" style="width: 40px; height: 40px;">
+        <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+
+<!-- section Information -->
+<section class="info" style="background-color: #0a0a0a; padding: 60px 0;">
+    <div class="container">
+        <div class="row g-2">
+
+            <!-- Left Card -->
+            <div class="col-lg-6">
+                <div class="info info-card-left">
+                    <!-- Transform Button -->
+                    <button class="transform-btn mb-4">
+                        <i class="fas fa-rocket me-2"></i>
+                        Transform Your Business
+                    </button>
+
+                    <!-- Main Content -->
+                    <div class="mb-4">
+                        <h2 class="mb-5 text-break" style="color: white; font-size: 3rem; line-height: 1.3;">
+                            Ready to Scale Your Corporate Operations?
+                        </h2>
+                        <p style="color: #ccc; line-height: 1.6; font-size: 14px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- Right Card -->
+            <div class="col-lg-6">
+                <div class="info info-card-right">
+                    <!-- Features List -->
+                    <div class="mb-4">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check" style="font-size: 10px; color: white;"></i>
+                            </div>
+                            <span style="color: white; font-size: 14px;">Advanced Analytics Dashboard</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check" style="font-size: 10px; color: white;"></i>
+                            </div>
+                            <span style="color: white; font-size: 14px;">24/7 Enterprise Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check" style="font-size: 10px; color: white;"></i>
+                            </div>
+                            <span style="color: white; font-size: 14px;">Custom Integration Solutions</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="d-flex gap-3 mb-4 flex-column flex-lg-row">
+                    <button class="transform-btn">
+                        <i class="fas fa-rocket me-2"></i>
+                        Start Free Trial
+                    </button>
+
+                    <!-- Demo Button -->
+                    <button class="demo-btn fs-md-3">
+                        Schedule Demo
+                    </button>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span style="color: #ccc; font-size: 12px; margin-left: 10px;">4.9/5 (2,500+ reviews)</span>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+<!-- section Information services -->
+<section class="info-services" style="padding: 60px 0;">
+    <div class="container">
+        <div class="row g-2">
+
+            <!-- Left Card -->
+            <div class="info-services-left col-lg-5 text-center text-lg-start">
+                <div class="info-card-services-left">
+                    <!-- header -->
+                    <h2 class="mb-4" style="color: black; font-size:3rem;font-weight: 700 bold;">Powerful Features for Modern Business</h2>
+                    <p style="color: grey;font-size: 20px;">Streamline your operations with our comprehensive suite of business tools designed to boost productivity and drive growth.</p>
+                    
+                    <!-- content-center -->
+                    <div class="content-center d-flex mb-4 mt-5 justify-content-center align-items-center flex-column flex-lg-row mt-4">
+                        <div class="icon" style="margin-right: 20px;margin-left: 20px;margin-bottom: 20px;">
+                        <img src="./images/icon_content.jpg" alt="">
+                        </div>
+                        <div>
+                            <h3>Lightning Fast Performance</h3>
+                            <p style="color: grey;font-size: 20px;">Experience blazing fast loading times and seamless user interactions that keep your team productive.</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-content text-capitalize" >
+                        Get Started Today
+                    </button>
+                    
+
+                    
+                </div>
+            </div>
+
+                <!-- Right Card -->
+
+            <div class="col-lg-6">
+            <div class=" info-services-right row g-4 text-center">
+
+                <div class="col-lg-6">
+                <div class="card-content card-top-left">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-shield fa-lg" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>Enterprise Security</h3>
+                    <p style="color: grey;">Bank-level encryption and advanced security protocols to protect your sensitive business data.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-6">
+                <div class="card-content card-top-right">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-chart-line fa-lg" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>Real-time Analytics</h3>
+                    <p style="color: grey;">Get instant insights with comprehensive dashboards and detailed reporting capabilities.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-6">
+                <div class="card-content card-center-left">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-user-group fa-lg" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>Team Collaboration</h3>
+                    <p style="color: grey;">Foster seamless teamwork with integrated communication and project management tools.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-6">
+                <div class="card-content card-center-right">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-cloud-arrow-up fa-xl" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>Cloud Integration</h3>
+                    <p style="color: grey;">Seamlessly connect your applications and data across the cloud with our integration solutions.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-6">
+                <div class="card-content card-bottom-left">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-gear fa-xl" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>Easy Customization</h3>
+                    <p style="color: grey;">Tailor the platform to your unique business needs with flexible configuration options.</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-6">
+                <div class="card-content card-bottom-right">
+                    <div class="icon-card">
+                    <i class="fa-solid fa-headset fa-xl" style="color: #FFD43B;"></i>
+                    </div>
+                    <div class="text-card">
+                    <h3>24/7 Support</h3>
+                    <p style="color: grey;">Get expert assistance whenever you need it with our dedicated customer support team.</p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Brand Logos Section -->
+<section class="brands-section">
+<div class="container">
+    <div class="brands-container">
+        <div class="brand-slide">
+        <img src="./images/clients-2.webp" alt="Walmart" class="brand-logo">
+        <img src="./images/clients-3.webp" alt="Signify Health" class="brand-logo">
+        <img src="./images/clients-4.webp" alt="TomTom" class="brand-logo">
+        <img src="./images/clients-5.webp" alt="Viatris" class="brand-logo">
+        <img src="./images/clients-6.webp" alt="Zoetis" class="brand-logo">
+        <img src="./images/clients-7.webp" alt="Alitalia" class="brand-logo">
+        <!-- Repeat Images -->
+        <img src="./images/clients-2.webp" alt="Walmart" class="brand-logo">
+        <img src="./images/clients-3.webp" alt="Signify Health" class="brand-logo">
+        <img src="./images/clients-4.webp" alt="TomTom" class="brand-logo">
+        <img src="./images/clients-5.webp" alt="Viatris" class="brand-logo">
+        <img src="./images/clients-6.webp" alt="Zoetis" class="brand-logo">
+        <img src="./images/clients-7.webp" alt="Alitalia" class="brand-logo">
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- section Portfolio -->
+<section class="portfolio" id="portfolio" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+        <!-- Header -->
+        <div class="mb-4">
+            <div class="d-flex">
+            <h2 class="mb-2 text-uppercase">Portfolio</h2>
+            <div class="bg-warning mt-4 ms-4" style="width: 150px; height: 4px;"></div>
+            </div>
+            <p class="mt-3" style="color: rgb(146, 140, 140);">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+
+        <!-- Buttons group -->
+        <div class="buttons mb-4 text-center">
+            <button class="btn btn-portfolio me-2 active rounded-4">All</button>
+            <button class="btn btn-portfolio me-2 rounded-4">Strategy</button>
+            <button class="btn btn-portfolio me-2 rounded-4">Finance</button>
+            <button class="btn btn-portfolio me-2 rounded-4">Operation</button>
+            <button class="btn btn-portfolio me-2 rounded-4">Technology</button>
+        </div>
+
+        <!-- imagesContent -->
+        <div class="imagesContent">
+            <div class="row">
+            <div class="d-flex justify-content-around align-items-center flex-column flex-lg-row">
+
+                <div class="portfolio-card-1 col-lg-3" data-category="strategy">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-1.webp" alt="Portfolio 1" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Business Growth Strategy</h4>
+                    <p>Strategic Planning</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Strategy</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Consulting</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="portfolio-card-2 col-lg-3" data-category="finance">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-2.webp" alt="Portfolio 2" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Financial Restructuring</h4>
+                    <p>Financial Advisory</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Finance</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Investment</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="portfolio-card-3 col-lg-3" data-category="operation">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-3.webp" alt="Portfolio 3" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Supply Chain Optimization</h4>
+                    <p>Operations Management</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Operation</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Logistics</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-around align-items-center flex-column flex-lg-row">
+                <div class="portfolio-card-4 col-lg-3" data-category="technology">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-4.webp" alt="Portfolio 4" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Digital Transformation</h4>
+                    <p>Technology Consulting</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Technology</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Innovation</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="portfolio-card-5 col-lg-3" data-category="strategy">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-5.webp" alt="Portfolio 5" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Market Expansion</h4>
+                    <p>Strategic Planning</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Strategy</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Growth</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="portfolio-card-6 col-lg-3" data-category="finance">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-6.webp" alt="Portfolio 6" class="img-fluid">
+                    <div class="portfolio-overlay p-3">
+                    <h4>Investment Strategy</h4>
+                    <p>Financial Advisory</p>
+                    <div class="buttons mb-2 d-inline-block">
+                        <button class="btn btn-sm btn-portfolio me-3 rounded-5">Finance</button>
+                        <button class="btn btn-sm btn-portfolio rounded-5">Investment</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <button class="btn btn-view fw-semibold text-center text-nowrap">View All Cases Studies</button>
+
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing" id="pricing" style="padding: 80px 0; background-color: #f5f5f5;">
+    <div class="container">
+        <!-- Header -->
+        <div class="mb-5">
+            <div class="d-flex align-items-center mb-3">
+                <h2 class="mb-0 text-uppercase">Pricing</h2>
+                <div class="bg-warning ms-4" style="width: 150px; height: 4px; margin-top: 8px;"></div>
+            </div>
+            <p class="mt-3" style="color: rgb(146, 140, 140);">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="row g-4 justify-content-center">
+            <!-- Standard Plan -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card">
+                    <div class="pricing-icon standard">
+                        <i class="fas fa-star" style="color: #ff6b35; font-size: 24px;"></i>
+                    </div>
+                    <h3 class="pricing-title">Standard</h3>
+                    <div class="pricing-amount">
+                        <span class="pricing-currency">$</span>
+                        <span class="pricing-price">9</span>
+                        <span class="pricing-period">/month</span>
+                    </div>
+                    <p class="pricing-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+                    
+                    <ul class="pricing-features">
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Vestibulum ante ipsum primis</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Fusce vulputate eleifend</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Nullam ac tortor vitae</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="pricing-btn">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Professional Plan (Recommended) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card recommended">
+                    <div class="pricing-icon professional">
+                        <i class="fas fa-star" style="font-size: 24px;"></i>
+                    </div>
+                    <h3 class="pricing-title">Professional</h3>
+                    <div class="pricing-amount">
+                        <span class="pricing-currency">$</span>
+                        <span class="pricing-price">29</span>
+                        <span class="pricing-period">/month</span>
+                    </div>
+                    <p class="pricing-description">Maecenas tempus tellus eget condimentum rhoncus semper.</p>
+                    
+                    <ul class="pricing-features">
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Donec quam felis ultricies</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Aenean massa imperdiet</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Cras dapibus vivamus</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="pricing-btn">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Ultimate Plan -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card">
+                    <div class="pricing-icon ultimate">
+                        <i class="fas fa-star" style="color: #ff6b35; font-size: 24px;"></i>
+                    </div>
+                    <h3 class="pricing-title">Ultimate</h3>
+                    <div class="pricing-amount">
+                        <span class="pricing-currency">$</span>
+                        <span class="pricing-price">49</span>
+                        <span class="pricing-period">/month</span>
+                    </div>
+                    <p class="pricing-description">Etiam rhoncus maecenas tempus tellus eget condimentum.</p>
+                    
+                    <ul class="pricing-features">
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Phasellus viverra nulla</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Quisque rutrum aenean</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Etiam ultricies nisi vel</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="pricing-btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section" style="background-color: white;">
+    <div class="container" >
+
+        <!-- FAQ Tabs -->
+        <div class="mb-4">
+            <div class="faq-tabs rounded-5" style="background-color:#f5f5f5 ;">
+                <!-- add type="button" to avoid unexpected form behavior -->
+                <button type="button" class="faq-tab active" data-tab="general">
+                    <i class="fas fa-info-circle"></i>General
+                </button>
+                <button type="button" class="faq-tab" data-tab="pricing-btn">
+                    <i class="fas fa-dollar-sign"></i>Pricing
+                </button>
+                <button type="button" class="faq-tab" data-tab="support">
+                    <i class="fas fa-headset"></i>Support
+                </button>
+            </div>
+        </div>
+
+        <!-- FAQ Content -->
+        <div class="faq-content">
+            <!-- General Tab -->
+            <div class="tab-content active" id="general">
+                <div class="faq-item faq-item-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">1</span>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">2</span>
+                            <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Duis at consectetur lorem donec massa sapien faucibus et molestie ac. Vulputate sapien nec sagittis aliquam malesuada bibendum.
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">3</span>
+                            <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer ">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Tab -->
+            <div class="tab-content" id="pricing-btn" style="display: none;">
+                <div class="faq-item faq-item-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">1</span>
+                            <span>Ac odio tempor orci dapibus ultrices in iaculis?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">2</span>
+                            <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan.
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">3</span>
+                            <span>Varius vel pharetra vel turpis nunc eget lorem dolor?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Tab -->
+            <div class="tab-content" id="support" style="display: none;">
+                <div class="faq-item faq-item-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">1</span>
+                            <span>How can I contact customer support?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        You can reach our customer support team via email at support@strive.com, through our live chat feature, or by calling our helpline at +1-800-STRIVE.
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">2</span>
+                            <span>What are your support hours?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Our support team is available 24/7 for all Professional and Ultimate plan users. Standard plan users have access to support during business hours (9 AM - 6 PM EST).
+                    </div>
+                </div>
+
+                <div class="faq-item faq-item-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <div class="d-flex align-items-center">
+                            <span class="faq-number">3</span>
+                            <span>Do you provide training and onboarding?</span>
+                        </div>
+                        <div class="faq-toggle">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, we provide comprehensive training and onboarding for all new users. This includes video tutorials, documentation, and one-on-one sessions for Professional and Ultimate plan users.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Footer -->
+        <div class="faq-footer">
+            <h4>Still have questions? We're here to help!</h4>
+            <p>Our support team is ready to assist you with any questions or concerns you may have.</p>
+            <button class="contact-support-btn">Contact Support</button>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section">
+    <div class="container">
+        <!-- Header -->
+        <div class="text-start mb-5">
+            <div class="d-flex align-items-center  mb-3">
+                <h2 class="mb-0 text-uppercase">Team</h2>
+                <div class="bg-warning ms-4" style="width: 150px; height: 4px; margin-top: 8px;"></div>
+            </div>
+            <p style="color: rgb(146, 140, 140);">Meet our passionate team of experts dedicated to driving your business forward</p>
+        </div>
+
+        <!-- Team Members -->
+        <div class="row">
+            <!-- First Row -->
+            <div class="col-lg-3 col-md-6 card-team-1">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-m-8.webp" alt="Marcus Rodriguez">
+                    </div>
+                    <h3 class="team-name">Marcus Rodriguez</h3>
+                    <h4 class="team-title">Chief Technology Officer</h4>
+                    <p class="team-description">Passionate about building scalable solutions and leading innovative development teams to create exceptional user experiences.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-2">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-f-12.webp" alt="Sarah Chen">
+                    </div>
+                    <h3 class="team-name">Sarah Chen</h3>
+                    <h4 class="team-title">Head of Product Design</h4>
+                    <p class="team-description">Creative strategist who transforms complex problems into intuitive design solutions that enhance user engagement and satisfaction.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-3">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-m-3.webp" alt="David Kumar">
+                    </div>
+                    <h3 class="team-name">David Kumar</h3>
+                    <h4 class="team-title">VP Marketing</h4>
+                    <p class="team-description">Results-driven marketing strategist with expertise in digital marketing campaigns that drive brand awareness and customer acquisition.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-4">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-f-7.webp" alt="Emma Thompson">
+                    </div>
+                    <h3 class="team-name">Emma Thompson</h3>
+                    <h4 class="team-title">Business Development Lead</h4>
+                    <p class="team-description">Strategic business leader with a passion for growth through partnerships and client relationships that drive long-term success.</p>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="col-lg-3 col-md-6 card-team-5">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-m-14.webp" alt="Alex Johnson">
+                    </div>
+                    <h3 class="team-name">Alex Johnson</h3>
+                    <h4 class="team-title">Senior Data Scientist</h4>
+                    <p class="team-description">Data expert who transforms complex information using cutting-edge analytics and machine learning to drive business insights.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-6">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-f-4.webp" alt="Lisa Park">
+                    </div>
+                    <h3 class="team-name">Lisa Park</h3>
+                    <h4 class="team-title">UX Research Director</h4>
+                    <p class="team-description">User experience advocate dedicated to understanding customer needs and translating insights into product improvements.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-7">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-m-11.webp" alt="Ryan Mitchell">
+                    </div>
+                    <h3 class="team-name">Ryan Mitchell</h3>
+                    <h4 class="team-title">Operations Manager</h4>
+                    <p class="team-description">Operations specialist focused on optimizing workflows, scalability, and implementing processes that enhance operational efficiency.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 card-team-8">
+                <div class="team-member">
+                    <div class="team-avatar">
+                        <img src="./images/person-f-9.webp" alt="Jessica Williams">
+                    </div>
+                    <h3 class="team-name">Jessica Williams</h3>
+                    <h4 class="team-title">Customer Success Lead</h4>
+                    <p class="team-description">Customer advocate who works tirelessly to ensure client satisfaction through strategic support and relationship management.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Posts Section -->
+<section class="posts" id="posts" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row">
+            <!-- Header -->
+                <div class="mb-4">
+                    <div class="d-flex">
+                        <h2 class="mb-2 text-uppercase">Recent Blog Posts</h2>
+                        <div class="bg-warning mt-4 ms-4" style="width: 150px; height: 4px;"></div>
+                    </div>
+                    
+                    <p class="mt-3" style="color: rgb(146, 140, 140);">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+
+            <!-- Left side - Image -->
+            <div class="col-lg-8 mb-5 mb-lg-0">
+                <!-- Top Side -->
+                <div class="Top-Side side-left-1" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 85vh;min-height: 95vh;">
+                    <div class="position-relative ">
+                    <img src="./images/blog-post-7.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 300px;">
+                    
+                    <!-- Top right badge -->
+                    <div class="position-absolute text-center text-uppercase rounded-5" style="background-color: rgb(234, 124, 0); width: 130px; height: 50px; color: white; top: 20px; left: 15px; padding: 10px;">
+                        <small>Featured</small>
+                    </div>
+                </div>
+                <!-- Text -->
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div>
+                        <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Technology</button>
+                    </div>
+                    <div>
+                        <small class="mb-1" style="color: grey;margin-right: 10px;">Dec 18, 2024</small>
+                            
+                    </div>
+                </div>
+                <h3 class=" text-break" style="font-size: 35px; margin: 30px 0;margin-left: 10px;">Lorem ipsum dolor sit amet consectetur adipiscing elit mauris</h3>
+                <p style="margin-left: 10px;">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                <div class="blog-Avatar d-flex  mt-4">
+                    <img src="./images/person-m-8.webp" alt="Author" class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;margin-left: 10px;">
+                    <div>
+                        <h5 class="mb-0">Marcus Johnson</h5>
+                        <small style="color: grey;">5 min read</small>
+                    </div>
+                </div>
+                <div class="blog-btn text-capitalize" style="margin-top: 20px;color: rgb(234, 124, 0);font-size: 20px;margin-left: 10px;margin-bottom: 30px;">
+                        <small>Read More <span><i class="fa-solid fa-arrow-right"></i></span></small>
+                </div>
+
+                </div>
+                
+                <!-- Bottom Side -->
+                <div class="Top-Side side-left-2" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 85vh; min-height: 95vh;">
+                    <div class="position-relative ">
+                    <img src="./images/blog-post-3.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 300px;">
+                    
+                    <!-- Top right badge -->
+                    <div class="position-absolute text-center text-uppercase rounded-5" style="background-color: rgb(234, 124, 0); width: 130px; height: 50px; color: white; top: 20px; left: 15px; padding: 10px;">
+                        <small>Featured</small>
+                    </div>
+                </div>
+                <!-- Text -->
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div>
+                        <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Technology</button>
+                    </div>
+                    <div>
+                        <small class="mb-1" style="color: grey;margin-right: 10px;">Dec 16, 2024</small>
+                            
+                    </div>
+                </div>
+                <h3 class=" text-break" style="font-size: 35px; margin: 30px 0;margin-left: 10px;">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse</h3>
+                <p style="margin-left: 10px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                <div class="blog-Avatar d-flex  mt-4">
+                    <img src="./images/person-f-7.webp" alt="Author" class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;margin-left: 10px;">
+                    <div>
+                        <h5 class="mb-0">Emma Rodriguez</h5>
+                        <small style="color: grey;">7 min read</small>
+                    </div>
+                </div>
+                <div class="blog-btn text-capitalize" style="margin-top: 20px;color: rgb(234, 124, 0);font-size: 20px;margin-left: 10px;margin-bottom: 30px;">
+                        <small>Read More <span><i class="fa-solid fa-arrow-right"></i></span></small>
+                </div>
+
+                </div>
+            </div>
+                
+            
+            <!-- Right side - Content -->
+            <div class="col-lg-4" style="top:0;">
+                
+                <!-- Content -->
+                <div class="content-right">
+                    <!-- Side Right-1 -->
+                    <div class="Side-right side-right-1" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 40vh;">
+                        <div class="position-relative ">
+                        <img src="./images/blog-post-5.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 130px;">
+                    </div>
+                    <!-- Text -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Business</button>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;font-size: 20px; text-wrap: break-word;">Excepteur sint occaecat cupidatat non proident sunt</p>
+                    <div class="blog-Avatar d-flex mt-3 flex-row align-items-center">
+                            <h6 class="mb-0" style="margin: 0 10px;">By Jessica Kim</h6>
+                            <small class="mb-1" style="color: grey;margin-top: 10px;">Dec 16, 2024</small>
+                    </div>
+                    </div>
+
+                    <!-- Side Right-2 -->
+                    <div class="Side-right side-right-2" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 40vh;">
+                        <div class="position-relative ">
+                        <img src="./images/blog-post-9.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 130px;">
+                    </div>
+                    <!-- Text -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Marketing</button>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;font-size: 20px; text-wrap: break-word;">Voluptate velit esse cillum dolore eu fugiat nulla</p>
+                    <div class="blog-Avatar d-flex mt-3 flex-row align-items-center">
+                            <h6 class="mb-0" style="margin: 0 10px;">By David Park</h6>
+                            <small class="mb-1" style="color: grey;margin-top: 10px;">Dec 12, 2024</small>
+                    </div>
+                    </div>
+
+                    <!-- Side Right-3 -->
+                    <div class="Side-right side-right-3" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 40vh;">
+                        <div class="position-relative ">
+                        <img src="./images/blog-post-6.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 130px;">
+                    </div>
+                    <!-- Text -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Design</button>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;font-size: 20px; text-wrap: break-word;">Pariatur consectetur adipiscing elit sed do eiusmod</p>
+                    <div class="blog-Avatar d-flex mt-3 flex-row align-items-center">
+                            <h6 class="mb-0" style="margin: 0 10px;">By Sarah Miller</h6>
+                            <small class="mb-1" style="color: grey;margin-top: 10px;">Dec 10, 2024</small>
+                    </div>
+                    </div>
+
+                    <!-- Side Right-4 -->
+                    <div class="Side-right side-right-4" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px;border-radius: 15px; height: 40vh;">
+                        <div class="position-relative ">
+                        <img src="./images/blog-post-8.webp" alt="" class="img-fluid w-100" style="object-fit: cover; border-radius: 10px; height: 130px;">
+                    </div>
+                    <!-- Text -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <button class="btn btn-portfolio text-capitalize fw-semibold rounded-5">Tech</button>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;font-size: 20px; text-wrap: break-word;">Magna aliquam erat volutpat consectetur adipiscing</p>
+                    <div class="blog-Avatar d-flex mt-3 flex-row align-items-center">
+                            <h6 class="mb-0" style="margin: 0 10px;">By Alex Chen</h6>
+                            <small class="mb-1" style="color: grey;margin-top: 10px;">Dec 8, 2024</small>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <!-- Header -->
+        <div class="mb-5">
+            <div class="d-flex align-items-center mb-3">
+                <h2 class="mb-0 text-uppercase">Contact Us</h2>
+                <div class="bg-warning ms-4" style="width: 150px; height: 4px; margin-top: 8px;"></div>
+            </div>
+            <p style="color: rgb(146, 140, 140);">Get in touch with us for any questions or inquiries</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Left side - Map -->
+            <div class="col-lg-6 card-map">
+                <div class="map-container" style="box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); margin-bottom: 50px; border-radius: 15px; height: 120vh;overflow: hidden;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1786152.2852062252!2d29.98541115401217!3d29.029460581565445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sDowntown.%20Conference%20Center!5e0!3m2!1sen!2seg!4v1759423045266!5m2!1sen!2seg" 
+                        style="border:0; width:100%; height:100%; border-radius:15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Right side - Contact Info & Form -->
+            <div class="col-lg-6">
+                <div class="row g-4 card-contact-info">
+                    <!-- Contact Information -->
+                    <div class="col-12">
+                        <div class="contact-info-card">
+                            <!-- 2x2 Grid for Contact Info -->
+                            <div class="row g-3 mb-4">
+                                <!-- Location -->
+                                <div class="col-md-6">
+                                    <div class="contact-info-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Location</h5>
+                                            <p>8721 Broadway Avenue, New York, NY 10025</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="col-md-6">
+                                    <div class="contact-info-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Email</h5>
+                                            <p>info@samplecompany.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Phone -->
+                                <div class="col-md-6">
+                                    <div class="contact-info-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Call</h5>
+                                            <p>+1 (212) 555-7890</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Hours -->
+                                <div class="col-md-6">
+                                    <div class="contact-info-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-clock"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Open Hours</h5>
+                                            <p>Monday-Friday: 9AM - 6PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="col-12 card-contact-form">
+                        <div class="contact-form">
+                            <h4>Get in Touch</h4>
+                            <p style="color: #666; margin-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                                </div>
+                                
+                                <div class="form-group d-flex align-items-center justify-content-between">
+                                    <button type="submit" class="submit-btn " >
+                                    Send Message
+                                    </button>
+                                    <!-- Social Links -->
+                                    <div class="social-links">
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Company Info -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <a href="#" class="footer-brand">Strive<span>.</span></a>
+                <p class="footer-description">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.
+                </p>
+                <h5 class="footer-title">Stay Updated</h5>
+                <div class="newsletter-section">
+                    <div class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email">
+                        <button class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Links -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="footer-title">Company</h5>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>About</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Careers</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Press</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Blog</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Solutions Links -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="footer-title">Solutions</h5>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Digital Strategy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Cloud Computing</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Data Analytics</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>AI Solutions</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right" style="color: orangered;"></i>Cybersecurity</a></li>
+                </ul>
+            </div>
+
+            <!-- Get in Touch -->
+            <div class="col-lg-5 col-md-6 mb-4">
+                <h5 class="footer-title">Get in Touch</h5>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>2847 Maple Avenue<br>Los Angeles, CA 90210<br>United States</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 987-6543</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@example.com</span>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-social">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="copyright">
+                    © Copyright <strong>Strive</strong> All Rights Reserved
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <span style="color: #666;">Designed by <a href="#" style="color: #ff6b35;">BootstrapMade</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+    <!-- Add FAQ JS: toggle function + tab wiring -->
+<script>
+	// toggle single FAQ item inside its tab
+	function toggleFaq(element) {
+		const faqItem = element.parentElement; // .faq-item
+		const isActive = faqItem.classList.contains('active');
+
+		// Close all items in the current tab
+		const currentTab = faqItem.closest('.tab-content');
+		if (currentTab) {
+			currentTab.querySelectorAll('.faq-item').forEach(item => {
+				item.classList.remove('active');
+				const icon = item.querySelector('.faq-toggle i');
+				if (icon) icon.className = 'fas fa-plus';
+			});
+		}
+
+		// Open clicked item if it wasn't active
+		if (!isActive) {
+			faqItem.classList.add('active');
+			const icon = faqItem.querySelector('.faq-toggle i');
+			if (icon) icon.className = 'fas fa-minus';
+		}
+	}
+
+	// Tabs wiring and initial state
+	document.addEventListener('DOMContentLoaded', function () {
+		const tabs = document.querySelectorAll('.faq-tab');
+		const contents = document.querySelectorAll('.tab-content');
+
+		function hideAllContents() {
+			contents.forEach(c => {
+				c.style.display = 'none';
+				c.classList.remove('active');
+			});
+		}
+
+		function resetIcons(container) {
+			container.querySelectorAll('.faq-item').forEach(item => {
+				item.classList.remove('active');
+				const icon = item.querySelector('.faq-toggle i');
+				if (icon) icon.className = 'fas fa-plus';
+			});
+		}
+
+		tabs.forEach(tab => {
+			tab.addEventListener('click', function () {
+				// active state on buttons
+				tabs.forEach(t => t.classList.remove('active'));
+				this.classList.add('active');
+
+				// show target content
+				const targetId = this.getAttribute('data-tab');
+				if (!targetId) return;
+				hideAllContents();
+				const target = document.getElementById(targetId);
+				if (target) {
+					target.style.display = 'block';
+					target.classList.add('active');
+					// reset icons inside the newly shown tab
+					resetIcons(target);
+				}
+			});
+
+			// keyboard accessibility
+			tab.addEventListener('keydown', (e) => {
+				if (e.key === 'Enter' || e.key === ' ') {
+					e.preventDefault();
+					tab.click();
+				}
+			});
+		});
+
+		// initialize: show the content for the .faq-tab.active if any
+		const activeBtn = document.querySelector('.faq-tab.active');
+		if (activeBtn) {
+			const id = activeBtn.getAttribute('data-tab');
+			const el = document.getElementById(id);
+			if (el) {
+				// hide others then show
+				hideAllContents();
+				el.style.display = 'block';
+				el.classList.add('active');
+			}
+		} else {
+			// fallback: show first tab-content
+			if (contents.length) contents[0].style.display = 'block';
+		}
+	});
+</script>
+</body>
+</html>
